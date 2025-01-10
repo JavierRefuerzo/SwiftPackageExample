@@ -12,7 +12,7 @@ public enum UtilityEnum: String {
     case sce2 = "sce2"
     
     //var data:(name: String){
-    var name:(String){
+    public var name:(String){
         switch self {
         case .pge:
             return "Pacific Gas and Electric (PG&E)"
@@ -22,7 +22,7 @@ public enum UtilityEnum: String {
         }
     }
     
-    var nameShort:(String){
+    public var nameShort:(String){
         switch self {
         case .pge:
             return "PG&E"
