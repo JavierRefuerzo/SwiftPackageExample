@@ -5,7 +5,7 @@
 //  Created by Javier Refuerzo on 1/9/25.
 //
 
-enum UtilityEnum: String {
+public enum UtilityEnum: String {
     
     case pge = "pge"
     case sce = "sce"
